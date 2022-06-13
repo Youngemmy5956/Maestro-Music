@@ -7,12 +7,12 @@
 	margin: 0px;
 	padding: 0px;
 }
-html{
-	scroll-behavior: smooth;
-}
 .menu-list,
 .menu-container {
 	display: none;
+}
+body {
+	background-color: white;
 }
 :root {
 	--color-primary: rgba(2, 2, 102, 0.739);
@@ -81,7 +81,7 @@ a {
 .landpage {
 	/* height: 100vh; */
 	width: 100%;
-	background-image: url(../images/gradient\ \(1\).jpg);
+	background-image: url(../images/Img.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -378,45 +378,45 @@ section {
 	justify-content: center;
 	cursor: pointer;
    }
-   
+
    .send-btn span {
 	display: block;
 	margin-left: 0.3em;
 	transition: all 0.3s ease-in-out;
    }
-   
+
    .send-btn svg {
 	display: block;
 	transform-origin: center center;
 	transition: transform 0.3s ease-in-out;
    }
-   
+
    .send-btn:hover .svg-wrapper {
 	animation: fly-1 0.6s ease-in-out infinite alternate;
    }
-   
+
    .send-btn:hover svg {
 	transform: translateX(1.2em) rotate(45deg) scale(1.1);
    }
-   
+
    .send-btn:hover span {
 	transform: translateX(5em);
    }
-   
+
    .send-btn:active {
 	transform: scale(0.95);
    }
-   
+
    @keyframes fly-1 {
 	from {
 	 transform: translateY(0.1em);
 	}
-   
+
 	to {
 	 transform: translateY(-0.1em);
 	}
    }
-   
+
 footer {
 	display: flex;
 	align-items: center;
@@ -461,7 +461,7 @@ textarea{
 .tracks-landpage {
 	height: auto;
 	padding: 10px 0px 60px 0px;
-	background-image: url(../images/player\ \(1\).jpg);
+	background-image: url(../images/yt.jpg);
 }
 .category-card {
 	position: relative;
@@ -761,7 +761,7 @@ textarea {
 		justify-content: space-around;
 		flex-direction: column;
 		transition: 0.5s ease-in-out;
-		background: linear-gradient(to right, rgb(6, 214, 241) 20% , rgb(184, 2, 184) 100%);
+		background: black;
 	}
 
 	.bar {
@@ -821,17 +821,14 @@ textarea {
 	nav {
 		display: none;
 	}
-	body{
-		overflow-x: auto;
-	}
 	.landpage-text {
 		width: 100vw;
 		height: 400px;
 	}
 	.category-section {
-		overflow: auto;
-		width: 100%;
 		display: flex;
+		overflow-x: auto;
+		width: 100%;
 	}
 	.category-card {
 		width: 250px;
@@ -893,7 +890,7 @@ textarea {
 	.plan-card{
 		margin: 20px 0px 20px 0px;
 	}
-	
+
 	.track-card{
 		min-width: 300px;
 	}
@@ -904,7 +901,7 @@ textarea {
 	}
 	.music-card p{
 		display: none;
-	
+
 	}
 	audio{
 		width: 70%;
