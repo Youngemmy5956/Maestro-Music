@@ -81,7 +81,7 @@ a {
 .landpage {
 	/* height: 100vh; */
 	width: 100%;
-	background-image: url(../images/Img.png);
+	background-image: url(../images/fe1.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -461,7 +461,7 @@ textarea{
 .tracks-landpage {
 	height: auto;
 	padding: 10px 0px 60px 0px;
-	background-image: url(../images/yt.jpg);
+	background-image: url(../images/fe3.png);
 }
 .category-card {
 	position: relative;
@@ -548,7 +548,7 @@ audio {
 	margin: 0px 0px;
 }
 .contacts-landpage {
-	background-image: url(../images/studio\ \(1\).jpg);
+	background-image: url(../images/fe2.png);
 }
 .icon {
 	height: 30px;
